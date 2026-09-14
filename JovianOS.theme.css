@@ -6,10 +6,12 @@
 */
 
 /* import theme modules */
+/*Base*/
 @import url('https://refact0r.github.io/system24/build/system24.css');
-
+/*Custom*/
+@import url('https://raw.githubusercontent.com/EebleSheembl/Jovian-OS-Discord-Theme/refs/heads/main/JovianOS.css.css?token=GHSAT0AAAAAAEG5MSXQAFAVRH4J7AEL3SSG2UOMPBQ');
+/*CRT*/
 @import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
-/* ^ This is the CRT effect. ^ If you don't like it, remove or comment out this line! */    
 
 body {
     /* font, change to '' for default discord font */
@@ -27,7 +29,7 @@ body {
     /* animation/transition options */
     --animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
     --list-item-transition: 0.2s ease; /* transition for list items */
-    --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
+    --dms-icon-svg-transition: 0s ; /* transition for the dms icon */
 
     /* top bar options */
     --top-bar-height: var(--gap); /* height of the top bar (discord default is 36px, old discord style is 24px, var(--gap) recommended if button position is set to titlebar) */
@@ -96,7 +98,7 @@ body {
     /* background and dark colors */
     --bg-1: hsl(20, 5%, 25%); /* dark buttons when clicked */
     --bg-2: var(--amber-4); /* dark buttons */
-    --bg-3: hsl(20, 2%, 19%); /* spacing, secondary elements */
+    --bg-3: hsl(0, 0%, 0%); /* spacing, secondary elements */
     --bg-4: #000000; /* main background color */
     --hover: hsla(20, 3%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(20, 3%, 40%, 0.2); /* channels and buttons when clicked or selected */
@@ -126,7 +128,7 @@ body {
     --border-light: var(--hover); /* general light border color */
     --border: var(--active); /* general normal border color */
     --border-hover: var(--accent-2); /* border color of panels when hovered */
-    --button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
+    --button-border: hsla(0, 0%, 0%, 0.322); /* neutral border color of buttons */
 
     /* base colors */
     --red-1: hsl(3, 76%, 70%);
